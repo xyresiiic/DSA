@@ -2,7 +2,8 @@
 using namespace std;
 
 int printnum(int n) {
-    if (n == 0) {
+    if (n == 0) 
+    {
         return 0;
     }
     cout << n << " ";
@@ -10,9 +11,9 @@ int printnum(int n) {
 }
 
 int main() {
-    int n = 5;
+    int n = 50;
     cout << "Numbers: ";
     int sum = printnum(n);
     cout << "\nSum: " << sum << endl;
     return 0;
-}
+}
